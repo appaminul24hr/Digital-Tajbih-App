@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/fream"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Digital Tajbih App"
+        android:background="#ffffff"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#006064"
+        android:padding="10dp"
+        >
+    </TextView>
+
+
+
+
+
+    <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="80sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:padding="15dp"
+        android:layout_marginTop="150dp"
+        >
+    </TextView>
+
+
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD ONE"
+        android:textSize="30sp"
+        android:backgroundTint="#ffffff"
+        android:textColor="#006064"
+        android:layout_marginTop="100dp"
+        >
+
+    </Button>
+
+
+    <Button
+        android:id="@+id/subButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUB ONE"
+        android:textSize="30sp"
+        android:backgroundTint="#ffffff"
+        android:textColor="#006064"
+        >
+
+    </Button>
+
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RESET"
+        android:textSize="30sp"
+        android:backgroundTint="#ffffff"
+        android:textColor="#006064"
+        >
+
+    </Button>
+
+
+
+
+
+
+
+</LinearLayout>
